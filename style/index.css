@@ -1,1 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 /* Add CSS styling here */
+
+
+/*Reset*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+        /* border: black 1px solid; */
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-size:2rem;
+    line-height: 1.5;
+
+    background-image: url('https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:rgba(3, 3, 3, 0.5);
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    margin-top: .5em;
+    color:#fff;
+}
+
+.main_nav {
+    margin-right: 2em;
+}
+
+.myName{
+    font-size: 4rem;
+}
+
+.myName-top{
+    margin-left: 2em;
+}
+
+.button {
+    background: #fff;
+    color:black;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    border: none;
+}
+
+#top {
+    height: 25vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2em;
+    flex-direction: column;
+    border: white solid 5px;
+    background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+}
+
+#portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 1em 1em;
+    align-items: flex-end;
+}
+
+#portfolio img {
+    width: 25%;
+    height: 250px;
+    margin: 2%;
+    border: white solid 5px;
+}
+
+footer{
+    background: black;
+    margin: 0 1em;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 ;
+}
+
