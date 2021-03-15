@@ -142,10 +142,45 @@ footer{
 
 
 @media (max-width:800px){
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #top{
+        height: 50vh;
+    }
+
+    .box{
+        width: 50%;
+    }
+    
+    .gallery .photos {
+        width:70%;
+    }
+
+    .box img{
+        margin: 0 1em;
+    }
+
+    .main_nav {
+        flex-direction: column;
+        margin-right: 0;
+        margin: 1em 0;
+    }
+
+    .main_nav .button {
+        margin: .25em auto;
+        padding: 1em 4em;
+    }
+
+    body {
+        margin-top: 16em;
 }
 
 @media (max-width:500px){
-    
+    .myName-top{
+        width: 50%;
+    }
 }
 
